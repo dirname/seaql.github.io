@@ -1,0 +1,58 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "在页脚中带有标题=Docs的页脚链接列的标题"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "在页脚中带有标题=Community的页脚链接列的标题"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "在页脚中带有标题=More的页脚链接列的标题"
+  },
+  "link.item.label.Getting Started": {
+    "message": "入门指南",
+    "description": "带有标签=Getting Started的页脚链接的标签，链接到 /docs/index"
+  },
+  "link.item.label.SeaORM Tutorial": {
+    "message": "SeaORM 教程",
+    "description": "带有标签=SeaORM Tutorial的页脚链接的标签，链接到 https://www.sea-ql.org/sea-orm-tutorial/"
+  },
+  "link.item.label.SeaORM Cookbook": {
+    "message": "SeaORM 实用手册",
+    "description": "带有标签=SeaORM Cookbook的页脚链接的标签，链接到 https://www.sea-ql.org/sea-orm-cookbook/"
+  },
+  "link.item.label.API Reference": {
+    "message": "API 参考",
+    "description": "带有标签=API Reference的页脚链接的标签，链接到 https://docs.rs/sea-orm/latest/sea_orm/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "带有标签=GitHub的页脚链接的标签，链接到 https://github.com/SeaQL/sea-orm/discussions"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "带有标签=Discord的页脚链接的标签，链接到 https://discord.com/invite/uCPdDXzbdv"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "带有标签=Twitter的页脚链接的标签，链接到 https://twitter.com/sea_ql"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "带有标签=Blog的页脚链接的标签，链接到 https://www.sea-ql.org/blog/"
+  },
+  "link.item.label.About Us": {
+    "message": "关于我们",
+    "description": "带有标签=About Us的页脚链接的标签，链接到 /about-us"
+  },
+  "link.item.label.Seaography": {
+    "message": "Seaography",
+    "description": "带有标签=Seaography的页脚链接的标签，链接到 https://www.sea-ql.org/Seaography/"
+  },
+  "copyright": {
+    "message": "<br/><a href=\"https://github.com/SeaQL/sea-orm/stargazers/\" target=\"_blank\"><img src=\"https://img.shields.io/github/stars/SeaQL/sea-orm.svg?style=social&label=Star\"/></a><br/>每一颗星都至关重要！<br/>版权所有 © 2024 SeaQL.org",
+    "description": "页脚版权信息"
+  }
+}

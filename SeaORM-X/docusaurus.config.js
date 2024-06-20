@@ -10,6 +10,10 @@ module.exports = {
   organizationName: 'SeaQL',
   projectName: 'sea-orm-x',
   trailingSlash: true,
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['en', 'zh-Hans']
+  },
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
@@ -55,6 +59,10 @@ module.exports = {
         {
           to: 'https://github.com/SeaQL/sea-orm',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

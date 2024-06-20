@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "在页脚中标题为“文档”的链接列标题"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "在页脚中标题为“社区”的链接列标题"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "在页脚中标题为“更多”的链接列标题"
+  },
+  "link.item.label.Getting Started": {
+    "message": "入门指南",
+    "description": "指向 /docs/index 的页脚链接标签"
+  },
+  "link.item.label.API Reference": {
+    "message": "API 参考",
+    "description": "指向 https://docs.rs/sea-streamer/ 的页脚链接标签"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "指向 https://github.com/SeaQL/sea-streamer/discussions 的页脚链接标签"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "指向 https://discord.com/invite/uCPdDXzbdv 的页脚链接标签"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "指向 https://twitter.com/sea_ql 的页脚链接标签"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "指向 https://www.sea-ql.org/blog/ 的页脚链接标签"
+  },
+  "link.item.label.About Us": {
+    "message": "关于我们",
+    "description": "指向 https://www.sea-ql.org/about-us 的页脚链接标签"
+  },
+  "copyright": {
+    "message": "<br/><a href=\"https://github.com/SeaQL/sea-streamer/stargazers/\" target=\"_blank\"><img src=\"https://img.shields.io/github/stars/SeaQL/sea-streamer.svg?style=social&label=Star\"/></a><br/>每一颗⭐都很重要！<br/>版权所有 © 2024 SeaQL.org",
+    "description": "页脚版权信息"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "SeaORM X",
+    "description": "导航栏中的标题"
+  },
+  "logo.alt": {
+    "message": "SeaORM X 标志",
+    "description": "导航栏标志的替代文本"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "带有标签为文档的导航栏项"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "带有标签为博客的导航栏项"
+  },
+  "item.label.Tutorial": {
+    "message": "教程",
+    "description": "带有标签为教程的导航栏项"
+  },
+  "item.label.Cookbook": {
+    "message": "实用指南",
+    "description": "带有标签为实用指南的导航栏项"
+  },
+  "item.label.Crate": {
+    "message": "软件包",
+    "description": "带有标签为软件包的导航栏项"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "带有标签为GitHub的导航栏项"
+  }
+}

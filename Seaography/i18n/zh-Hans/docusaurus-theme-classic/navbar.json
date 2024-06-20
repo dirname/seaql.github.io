@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "海图志",
+    "description": "导航栏中的标题"
+  },
+  "logo.alt": {
+    "message": "海图志徽标",
+    "description": "导航栏徽标的替代文本"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "标签为“文档”的导航栏项"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "标签为“博客”的导航栏项"
+  },
+  "item.label.Crate": {
+    "message": "软件包",
+    "description": "标签为“软件包”的导航栏项"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "标签为“GitHub”的导航栏项"
+  }
+}

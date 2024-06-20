@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "SeaStreamer",
+    "description": "导航栏中的标题"
+  },
+  "logo.alt": {
+    "message": "SeaStreamer 标志",
+    "description": "导航栏标志的替代文本"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "带有标签“文档”的导航栏项"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "带有标签“博客”的导航栏项"
+  },
+  "item.label.Crate": {
+    "message": "软件包",
+    "description": "带有标签“软件包”的导航栏项"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "带有标签“GitHub”的导航栏项"
+  }
+}

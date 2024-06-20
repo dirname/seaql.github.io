@@ -1,0 +1,55 @@
+# 使用 `sea-orm-cli`
+
+首先，使用 `cargo` 安装 `sea-orm-cli`。
+
+```shell
+$ cargo install sea-orm-cli
+```
+
+## 配置环境
+
+在您的环境中设置 `DATABASE_URL`，或者在项目根目录下创建一个 `.env` 文件。指定您的数据库连接。
+
+```env title=".env"
+DATABASE_URL=protocol://username:password@localhost/database
+```
+
+## 获取帮助
+
+在任何 CLI 命令或子命令中使用 `-h` 标志以获取帮助。
+
+```shell
+# 列出所有可用的命令
+$ sea-orm-cli -h
+
+# 列出 `generate` 命令中所有可用的子命令
+$ sea-orm-cli generate -h
+
+# 显示如何使用 `generate entity` 子命令
+$ sea-orm-cli generate entity -h
+```
+
+## 生成实体文件
+
+发现数据库中的所有表，并为每个表生成相应的 SeaORM 实体文件。
+
+> 从 SQLite 生成实体文件尚未得到支持。您可以手动编写实体文件，然后使用实体来[初始化数据库](07-write-test/03-sqlite.md#setup-database-schema)。
+
+命令行选项：
+- `-u` / `--database-url`：数据库 URL（默认：由 ENV 指定的 DATABASE_URL）
+- `-s` / `--database-schema`：数据库模式（默认：由 ENV 指定的 DATABASE_SCHEMA）
+    - 对于 MySQL，此参数将被忽略
+    - 对于 PostgreSQL，此参数是可选的，默认值为 'public'
+- `-o` / `--output-dir`：实体文件输出目录（默认：当前目录）
+- `-v` / `--verbose`：打印调试消息
+- `--include-hidden-tables`：从隐藏表生成实体文件（默认情况下，会忽略以下划线开头的表名）
+- `--compact-format`：生成 [紧凑格式](03-generate-entity/02-entity-structure.md) 的实体文件（默认：true）
+- `--expanded-format`：生成 [扩展格式](03-generate-entity/03-expanded-entity-structure.md) 的实体文件
+- `--with-serde`：自动为实体推导 serde Serialize / Deserialize 特性（无，序列化，反序列化，两者）（默认：无）
+
+```shell
+# 将数据库 `bakery` 的实体文件生成到 `src/entity`
+$ sea-orm-cli generate entity \
+    -u sql://sea:sea@localhost/bakery \
+    -o src/entity
+```

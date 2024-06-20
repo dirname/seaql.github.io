@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "最新版",
+    "description": "当前版本的标签"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "简介",
+    "description": "侧边栏 tutorialSidebar 中分类“简介”的标签"
+  },
+  "sidebar.tutorialSidebar.category.Installation & Configuration": {
+    "message": "安装与配置",
+    "description": "侧边栏 tutorialSidebar 中分类“安装与配置”的标签"
+  },
+  "sidebar.tutorialSidebar.category.Architecture of Graph Query Engine": {
+    "message": "图查询引擎架构",
+    "description": "侧边栏 tutorialSidebar 中分类“图查询引擎架构”的标签"
+  },
+  "sidebar.tutorialSidebar.category.Architecture of crates.io Crawler": {
+    "message": "crates.io 爬虫架构",
+    "description": "侧边栏 tutorialSidebar 中分类“crates.io 爬虫架构”的标签"
+  },
+  "sidebar.tutorialSidebar.category.Architecture of Graph Visualization": {
+    "message": "图形可视化架构",
+    "description": "侧边栏 tutorialSidebar 中分类“图形可视化架构”的标签"
+  }
+}

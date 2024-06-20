@@ -3,3 +3,4 @@
 .yarnrc.yml
 .pnp.*
 .DS_Store
+.idea

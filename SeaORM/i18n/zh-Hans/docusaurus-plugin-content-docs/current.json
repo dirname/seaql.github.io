@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "1.0.x 🚧",
+    "description": "当前版本标签"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "介绍",
+    "description": "教程侧边栏中“介绍”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Installation & Configuration": {
+    "message": "安装与配置",
+    "description": "教程侧边栏中“安装与配置”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Migration": {
+    "message": "迁移",
+    "description": "教程侧边栏中“迁移”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Generating Entities": {
+    "message": "生成实体",
+    "description": "教程侧边栏中“生成实体”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Basic CRUD": {
+    "message": "基本的增删改查",
+    "description": "教程侧边栏中“基本的增删改查”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Relations": {
+    "message": "关系",
+    "description": "教程侧边栏中“关系”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Writing Tests": {
+    "message": "编写测试",
+    "description": "教程侧边栏中“编写测试”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Queries": {
+    "message": "高级查询",
+    "description": "教程侧边栏中“高级查询”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Schema Statement": {
+    "message": "Schema 语句",
+    "description": "教程侧边栏中“Schema 语句”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Seaography": {
+    "message": "Seaography",
+    "description": "教程侧边栏中“Seaography”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.Internal Design": {
+    "message": "内部设计",
+    "description": "教程侧边栏中“内部设计”类别的标签"
+  },
+  "sidebar.tutorialSidebar.category.What's Next": {
+    "message": "下一步",
+    "description": "教程侧边栏中“下一步”类别的标签"
+  }
+}

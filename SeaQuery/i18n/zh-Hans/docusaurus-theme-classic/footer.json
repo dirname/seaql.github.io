@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "在页脚中标题为“文档”的页脚链接列的标题"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "在页脚中标题为“社区”的页脚链接列的标题"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "在页脚中标题为“更多”的页脚链接列的标题"
+  },
+  "link.item.label.Getting Started": {
+    "message": "入门指南",
+    "description": "链接至/docs/index的页脚链接标签"
+  },
+  "link.item.label.API Reference": {
+    "message": "API 参考",
+    "description": "链接至https://docs.rs/sea-query/latest/sea_query/的页脚链接标签"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "链接至https://github.com/SeaQL/sea-query/discussions的页脚链接标签"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "链接至https://discord.com/invite/uCPdDXzbdv的页脚链接标签"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "链接至https://twitter.com/sea_ql的页脚链接标签"
+  },
+  "link.item.label.About Us": {
+    "message": "关于我们",
+    "description": "链接至/about-us的页脚链接标签"
+  },
+  "copyright": {
+    "message": "版权所有 © 2024 SeaQL.org",
+    "description": "页脚版权信息"
+  }
+}
